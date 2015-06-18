@@ -42,7 +42,7 @@
 </div>
 <div class='amm-panel amm-browser-panel'>
 	<div class='amm-container'>
-		<div class='amm-head'>
+		<div class='amm-head-browser'>
 			Media:
 			<select class='form-control-sm' ng-model="amm_browser_group" ng-change="amm_browser_group_change()">
 				<optgroup ng-if="amm_resources.media.search" label="Assets">
@@ -61,7 +61,7 @@
 			<div amm-drag-media="media" ng-repeat="media in amm_media" class='amm-browser-media'></div>
 			<div ng-if='$amm.canvas_container_visible' class='amm-canvas-container'></div>
 		</div>
-		<div class='amm-foot'>
+		<div class='amm-foot-browser'>
 			<!--
 			<button type="button" class="btn btn-default btn-sm" ng-click="log_mash()">
 				<i class="glyphicon glyphicon-eye-open"></i>
@@ -88,7 +88,7 @@
 		</div>
 	</div>
 </div>
-<div class='amm-panel amm-inspector-panel'>
+<!-- <div class='amm-panel amm-inspector-panel'>
 	<div class='amm-container'>
 		<div class='amm-head'>
 			<span ng-switch="$amm.player.selectedClips.length">
@@ -103,10 +103,10 @@
 		<div class='amm-foot'>
 		</div>
 	</div>	
-</div>
+</div> -->
 <div class='amm-panel amm-timeline-panel'>
 	<div class='amm-container'>
-		<div class='amm-head'>
+		<div class='amm-head-time'>
 			<button type="button" ng-disabled="! $amm.player.can('undo')" class="btn btn-default btn-sm" ng-click="$amm.player.undo()">
 				<i class="glyphicon glyphicon-chevron-left"></i> 
 				Undo
@@ -178,7 +178,7 @@
 				</amm-timeline-tracks>
 			</div>
 		</div>
-		<div class='form-inline amm-foot'>
+		<div class='form-inline amm-foot-time'>
 			<table>
 				<tr>
 					<td>
