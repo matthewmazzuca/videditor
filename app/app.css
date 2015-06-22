@@ -43,16 +43,16 @@
 	position: absolute;
 	width: 256px; /* preview.width */
 	height: 212px; /* preview.height + head.height + foot.height */
-	left:340px;
-	bottom:400px;
+	left:300px;
+	bottom:450px;
 }
 
 .amm-browser-panel{
 	position: absolute;
-	left: 970px; /* player.width + buffer */
+	left: 940px; /* player.width + buffer */
 	height: 382px; /* player.height */
-	right: 0px;
-	top:150px;
+	right: 30px;
+	top:100px;
 }
 .amm-browser {
 	overflow-y: auto;
@@ -136,10 +136,10 @@
 }
 .amm-timeline-panel{
 	position: absolute;
-	right: 0px;
-	top: 550px; /* player.height + buffer */
-	left:340px;
-	bottom:0px;
+	right: 30px;
+	top: 500px; /* player.height + buffer */
+	left:300px;
+	bottom:20px;
 }
 
 amm-timeline-track-controls {
@@ -1451,6 +1451,7 @@ p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
 {
 	z-index: 2;
 	width: 175px;
+	top:30px;
 }
 
 #buttonu243
@@ -1871,6 +1872,8 @@ p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
 	width: 392px;
 	margin-right: -10000px;
 	margin-top: 2px;
+	top:30px;
+	left: 150px;
 }
 
 #u134
@@ -1879,7 +1882,8 @@ p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
 	width: 31px;
 	margin-right: -10000px;
 	margin-top: 6px;
-	left: 464px;
+	left: 564px;
+	top:19px;
 }
 
 #u140
@@ -1887,7 +1891,8 @@ p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
 	z-index: 6;
 	width: 34px;
 	margin-right: -10000px;
-	left: 495px;
+	left: 595px;
+	top:19px;
 }
 
 #u146
@@ -1895,7 +1900,7 @@ p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
 	z-index: 8;
 	width: 39px;
 	margin-right: -10000px;
-	left: 610px;
+	left: 860px;
 	top: 19px;
 
 }
@@ -1933,7 +1938,7 @@ p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
 	width: 39px;
 	margin-right: -10000px;
 	margin-top: -12px;
-	left: 650px;
+	left: 900px;
 	top: 30px;
 }
 
@@ -1943,7 +1948,7 @@ p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
 	width: 39px;
 	margin-right: -10000px;
 	margin-top: -12px;
-	left: 689px;
+	left: 939px;
 	top: 30px;
 }
 
@@ -1968,8 +1973,7 @@ p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
 	border-color: #000000;
 	background-color: #000000;
 	padding-bottom: 62px;
-	margin-left: auto;
-	margin-right: auto;
+	
 }
 
 
