@@ -1,4 +1,4 @@
-/*! angular-moviemasher - v1.0.8 - 2015-05-29
+/*! angular-moviemasher - v1.0.8 - 2015-06-22
 * Copyright (c) 2015 Movie Masher; Licensed  */
 /*globals MovieMasher:true, angular:true*/
 (function(){
